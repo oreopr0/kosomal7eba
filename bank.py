@@ -6,7 +6,7 @@ from random import randint
 import random,re
 from time import sleep
 
-bot = telebot.TeleBot("6454903034:AAHNo_mZ3gyITueBRJqoR9WFHI3mwxU71iM")
+bot = telebot.TeleBot("6541321830:AAHYudb3OJHTnlOl5oGQII2rH9ftbDqu5kk")
 ch = types.InlineKeyboardButton(text="ZZBank.",callback_data = "RebackBank")
 ch2 = types.InlineKeyboardButton(text="TomeBank.",callback_data = "SpaceBank")
 ch3 = types.InlineKeyboardButton(text="- Delete Account.",callback_data = "d")
