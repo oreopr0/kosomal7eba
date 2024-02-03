@@ -1,1 +1,1 @@
-bot: python -m kosomal7eba.py
+bot: python -m source-ze.py
