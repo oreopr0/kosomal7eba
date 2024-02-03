@@ -8,7 +8,7 @@ import time
 elhypamody = '6561509554'
 bot = telebot.TeleBot(Config.TG_BOT_TOKEN)
 p3 = types.InlineKeyboardMarkup()
-p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/TeamRecorder")
+p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/j_s_9")
 A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
 A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
 A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
@@ -273,7 +273,7 @@ def start(message):
 		k = message.from_user.username
 		d = time.strftime("%p %H:%M")
 		t = message.chat.type
-		y = '@TeamRecorder'
+		y = '@j_s_9'
 		bot.send_photo(message.chat.id,url,"""*  {}
 		
 𖡋 𝐈𝐃 ⌯ {} 
@@ -322,7 +322,7 @@ def start(message):
 	if m == ".":
 		f2 = message.from_user.first_name
 		p3 = types.InlineKeyboardMarkup()
-		p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/TeamRecorder")
+		p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/j_s_9")
 		p3.add(p5)
 		bot.reply_to(message,f"{f2}",reply_markup=p3)
 	if '@' in message.text.lower():
@@ -410,12 +410,12 @@ def start(message):
 	if message.text == "السورس" or message.text == "سورس":
 	    url = ["https://edit.telegra.ph/auth/AltwTgn33sFxwfsxrnLdPvUW1Mjhi6KSqbnjqKmtaZ"]
 	    p3 = types.InlineKeyboardMarkup()
-	    e3 = types.InlineKeyboardButton(text = "قناة السورس .",url="t.me/TeamRecorder")
+	    e3 = types.InlineKeyboardButton(text = "قناة السورس .",url="t.me/j_s_9")
 	    e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/Devmaro1")
 	    p3.add(e3,e4)
 	    r = random.choice(url)
 	    h = """اهلا بك عزيزي في سورس طوكيو
-[قناة السورس .](t.me/TeamRecorder)
+[قناة السورس .](t.me/j_s_9)
 [مطور السورس .](t.me/Devmaro1)"""
 	    bot.send_photo(message.chat.id,r,h,reply_to_message_id=message.message_id,reply_markup=p3,parse_mode="markdown")
 	if message.text == "e":
@@ -469,14 +469,14 @@ def start(message):
 اختر من الازرار،*
 """.format(f2,t2),disable_web_page_preview=True,parse_mode="markdown",reply_markup=p3)
 	p3 = types.InlineKeyboardMarkup()
-	p5 = types.InlineKeyboardButton( "🔱 Source • maro 🔱",url="t.me/TeamRecorder")
+	p5 = types.InlineKeyboardButton( "🔱 Source • maro 🔱",url="t.me/j_s_9")
 	p3.add(p5)
 	if message.text == "تمبلر" or message.text == "صور تمبلر" or message.text == "افتار تمبلر":
 		photo_str =  random.randint(74,154)
 		avtar_ainme = "https://t.me/PhotosDavid/" + str(photo_str)
 		bot.send_photo(message.chat.id,avtar_ainme,"""*تم اختيار صوره تمبلر اليك،
 - - - -- - - - - -- - - - -
-CH - @TeamRecorder*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
+CH - @j_s_9*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
 	p3 = types.InlineKeyboardMarkup()
 	p5 = types.InlineKeyboardButton( "🔱 source  •  maro 🔱",url="t.me/j_s_9")
 	p3.add(p5)
@@ -590,7 +590,7 @@ CH - @j_s_9*""",parse_mode="markdown",reply_to_message_id=message.message_id,rep
 	     	
 	if message.text == "ذ" or message.text == "ذكر" or message.text == "ايه" or message.text == "اية" or message.text == "اذكار":
 	  p3 = types.InlineKeyboardMarkup()
-	  p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/TeamRecorder")
+	  p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/j_s_9")
 	  url = "https://ApiAzkar.amoapi.repl.co"
 	  msg = message.text
 	  p3.add(p5)
@@ -616,7 +616,7 @@ def callback_data(call):
   if call.data == "c2":
   	r = random.choice(abod)
   	p3 = types.InlineKeyboardMarkup()
-  	p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/TeamRecorder")
+  	p5 = types.InlineKeyboardButton(text = "🔱 Source • maro 🔱",url="t.me/j_s_9")
   	p4 = types.InlineKeyboardButton(text ='↫التالي↬', callback_data= 'c2')
   	p3.add(p4)
   	p3.add(p5)
