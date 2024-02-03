@@ -5,7 +5,7 @@ import random
 import telebot
 from datetime import date ,timedelta ,time
 import time 
-elhypamody = '5453939490'
+elhypamody = '6561509554'
 bot = telebot.TeleBot(Config.TG_BOT_TOKEN)
 p3 = types.InlineKeyboardMarkup()
 p5 = types.InlineKeyboardButton(text = "🔱 Source • Tokyo 🔱",url="t.me/TeamRecorder")
